@@ -7,6 +7,8 @@ import unittest
 
 class Bjcl_ck(unittest.TestCase):
     """我的工作台-报警车辆-查看"""
+
+    
     def setUp(self):
         self.driver=webdriver.Chrome()
         self.driver_l=LoginPage(self.driver)
